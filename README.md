@@ -1,1 +1,2 @@
-# arqui1-taller1
+# Arquitectura de Computadores I - Taller 1
+
