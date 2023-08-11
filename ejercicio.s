@@ -5,7 +5,7 @@ iter_max: .byte 100
 
 .text
 main:
-	lw a0, seed # load seed number to a0
+	lb a0, seed # load seed number to a0
 	lw sp, base_mem # move stack pointer to 0x100 address
 rand:
 	add a1, zero, zero # initialize iterator
